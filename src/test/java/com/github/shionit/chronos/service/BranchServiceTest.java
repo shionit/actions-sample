@@ -33,5 +33,6 @@ public class BranchServiceTest {
 
         assertEquals(result1.getBranchCode(), "branch1");
         assertEquals(result2.getBranchCode(), "branch2");
+        assertEquals(2, 2);
     }
 }
