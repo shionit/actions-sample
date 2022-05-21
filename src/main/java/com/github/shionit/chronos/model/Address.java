@@ -6,6 +6,7 @@ package com.github.shionit.chronos.model;
 public class Address {
     private String street;
     private String city;
+    private int test;
 
     public String getStreet() {
         return street;
@@ -21,5 +22,13 @@ public class Address {
 
     public void setCity(String city) {
         this.city = city;
+    }
+
+    public int getTest() {
+        return test;
+    }
+
+    public void setTest(int test) {
+        this.test = test;
     }
 }
