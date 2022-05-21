@@ -8,4 +8,4 @@ service:
 - src/main/java/com/github/shionit/chronos/service/**/*
 
 test:
-- test/**/*
+- src/test/**/*
