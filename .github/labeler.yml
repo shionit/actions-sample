@@ -1,0 +1,11 @@
+actions:
+- .github/workflows/**/*
+
+model:
+- src/main/java/com/github/shionit/chronos/model/**/*
+
+service:
+- src/main/java/com/github/shionit/chronos/service/**/*
+
+test:
+- test/**/*
