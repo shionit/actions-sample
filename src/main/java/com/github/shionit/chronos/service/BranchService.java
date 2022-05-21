@@ -20,6 +20,7 @@ public class BranchService {
     public IBranch createDefaultBranch() {
         IBranch branch = branchFactory.get();
         branch.setBranchCode("(default)");
+        branch.setTitle("(default)");
         return branch;
     }
 }
